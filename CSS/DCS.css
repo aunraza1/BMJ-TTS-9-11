@@ -1,0 +1,529 @@
+/* HOME START */
+body
+{
+    width: 100%;
+    height: 100%;
+}
+html
+{
+    width: 100%;
+    height: 40%;
+}
+.nav
+{
+    float: left;
+    margin-left: 8%;
+    
+}
+.navbar
+{
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 20%;
+    margin-top: -3%;
+    
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'AUN';
+    font-size: 25px;
+    
+    
+
+}
+.header 
+{
+
+    height:30%;
+    width: 100%;
+    background-color: black;
+    
+}
+
+
+
+*
+{
+    margin: 0%;
+}
+
+
+
+@font-face
+{
+    font-family: 'AUN';
+    src: url(Lacquer-Regular.ttf);
+}
+.cover
+{
+    background-image: url('../Images/background.jpg');
+    height: 200%;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+    
+}
+.logo
+{
+    margin-top: 1%;
+
+}
+
+@keyframes a
+{
+	0%{ transform:translateY(-200%);}
+	100%{ transform:translateY(0);}
+	}
+.logoo img
+{
+    animation: a 2s 1;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: a;
+}
+.welcome
+{
+    color: white;
+    font-family: 'AUN';
+    font-size: 100px;
+
+}
+.b2
+{
+    height: 40%;
+    
+    
+
+}
+.main
+{
+ width: 100%;
+ height: 50%;
+ float: left;
+}
+
+
+.space
+{
+ width: 6%;
+ float: left;
+ height: 300%;
+}
+
+.or
+{
+    width: 30%;
+    height: 250%;
+    float: left;
+}
+
+ .fac
+ {
+font-family: 'AUN';
+font-size: xx-large;
+
+ }   
+    
+.h
+{
+    margin-top: 10%;
+    font-family: 'AUN';
+}
+.mission
+{
+    font-weight: lighter;
+    text-align: justify;
+    font-size: medium;
+
+}
+.missionspace
+{
+    height: 10%;
+    float: left;
+    width: 14%
+}
+
+.oro
+{
+   width: 45%;
+    height: 200%;
+    float: left;
+}
+.oro:hover
+
+{
+    transform: scale(1.1);
+    transition-duration: 1000ms;
+}
+
+.drop
+{
+ list-style-type: none;
+ list-style-position: inside;
+ width: 20%; 
+ height: 20%;
+ margin-top: 0%;
+ background-color: black;
+ display: none;
+ position: absolute;
+ text-decoration: underline;
+ 
+}
+#c12:hover .drop
+{
+    display: block;
+}
+
+
+#footer-bottom {
+    clear: both;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    border-top: none;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #353739;
+    
+}
+
+/* HOME END */
+
+
+
+/* 
+ADMISSION START */
+
+
+
+.admissionmain
+
+{
+    height: 100%;
+    width: 100%;
+}
+
+.program
+{
+ height: 100%;
+ width: 100%;
+}
+.pro
+{
+    border: 1px solid black;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 3%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    height: 200%;
+}
+
+.note
+{
+    font-size: large;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-style: italic;    
+}
+.fee
+{
+    width: 100%;
+    height: 100%;
+    margin-top: 8%;
+    
+    
+}
+.feetable
+{
+    border: 1px solid black;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 2%;
+        border-spacing: 0;
+    border-collapse: collapse;
+    height: 100%;
+    
+}
+.heading
+{
+    color: #ffffff;
+    background-color: #555555;
+    border: 1px solid #555555;
+    padding: 2%;
+    vertical-align: top;
+    text-align: left;
+}
+
+
+    
+
+
+.apply
+{
+ width: 99.8%;
+ height: 100;
+ 
+  
+ background-color: rgba(255,255,255,0.1); 
+ border: 1px solid black;
+
+
+ 
+}
+.hta
+{
+    padding: 0.9%
+}
+.gap
+{
+    width: 100%;
+    height: 50%
+    
+}
+
+
+/* 
+ADMISSION END */
+
+
+
+
+/* WHY UBIT START */
+
+
+
+
+.pag
+    {
+        width: 100%;
+    height: 150px;
+    
+    }
+
+
+
+.Why
+{
+    font-size: x-large;
+    font-weight: 900;
+    color: rgba(0,0,0,0.0.7);
+    list-style-type: none;
+    
+}
+.why
+{
+ list-style-type: none;
+ font-size: 18px;
+ color: rgba(0,0,0,0.4);
+ 
+}
+.ubit
+{
+    font-family: 'AUN';
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+.whyubit
+{
+ width: 99.8%;
+ height: 220%;
+ 
+  
+ background-color: rgba(255,255,255,0.1); 
+ border: 1px solid black;
+ background-image: url('../Images/dcs.jpg');
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-position: center;
+ margin-top: -100px;
+
+
+ 
+}
+.ubity 
+
+    
+{
+    font-family: 'AUN';
+    font-size: xx-large;
+    text-decoration: underline;
+    text-align: center;
+}
+.tour
+{
+    width: 100%;
+    height: 1000px;
+}
+.img
+{
+    width: 45%;
+    float: left;
+    
+    
+}
+.gap2
+{
+    float: left;
+    height: 10%;
+    width: 6%;
+}
+.caption
+{
+    font-family: 'AUN';
+    font-size: large;
+}
+.life
+{
+    margin-left: 0.7%;
+    margin-top: 10%;
+    font-family: 'AUN'
+}
+
+        #slider {
+            overflow: hidden;
+            float: left;
+            
+            margin-left: 15%;
+            margin-top: 8%;
+            
+        }
+        
+        @keyframes slider {
+            0% { left: 10%; }
+           
+            33% { left: -70%; } 
+            
+            66% { left: -100%; }
+            
+            
+        }
+        #slider figure {
+            width:100%;
+            position: relative;
+            animation: 8s slider infinite;
+           
+        }
+        
+        #slider figure:hover {
+            animation-play-state: paused; 
+        }
+        #slider figure img {
+        
+            height : 100%;
+            float: left;
+
+        }
+  /* WHY UBIT END       */
+        
+      
+   
+/* FACULTY START */
+
+    .quo
+    {
+        font-weight: 500;
+        font-size: larger;
+        font-style: oblique;
+    }
+   
+.style
+{
+    font-weight: 600;
+    font-style: oblique;
+    margin-left: 5%;
+}
+.faculty
+{
+    width: 25%;
+    float: left;
+    box-shadow: 5px 5px 5px blanchedalmond;
+    margin-top: 1%;
+}
+.margin
+{
+    margin-left: 6%;
+   
+}
+.space2
+{
+ width: 10%;
+ float: left;
+ height: 100%
+}
+
+
+
+
+#sliderA {
+    overflow: hidden;
+    float: left;
+    
+    margin-left: 15%;
+    margin-top: 8%;
+    
+}
+
+@keyframes sliderA {
+    0% { left: 10%; }
+   
+    33% { left: -70%; } 
+    
+    66% { left: -100%; }
+    
+    
+}
+#sliderA figure {
+    width:100%;
+    position: relative;
+    animation: 8s slider infinite;
+   
+}
+
+#sliderA figure:hover {
+    animation-play-state: paused; 
+}
+#sliderA figure img {
+    
+    height : 100%;
+    float: left;
+
+}
+.maincourse
+{
+    background-image: url('../Images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+.foooter
+{
+    color: white;
+    margin-left: 35%;
+
+}
+.ifram
+{
+        margin-left: 75%;
+        margin-top: -3%;
+}
+.end {
+   float: left;
+   height: 10%;
+   width: 100%;
+}
